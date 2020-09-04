@@ -1,0 +1,689 @@
+/* grouping & genearl style*/
+
+body{
+    
+}
+
+/* start my frame*/
+
+.sec-padding{
+    padding-top: 70px;
+    padding-bottom: 70px
+}
+
+.capitalize{text-transform: capitalize}
+
+.uppercase{text-transform: uppercase}
+
+.no-padding{ padding: 0}
+
+/* end my frame*/
+
+/*******************************************************************************************************************************************************/
+/* start start upper bar*/
+
+.upper-bar {
+    background-color: #08526D;
+    color: #FFF;
+    padding: 10px 0
+}
+
+.upper-bar .upper-conect {margin-top: 3px}
+
+.upper-bar .upper-contact{ text-align: right}
+
+.upper-bar .upper-conect span:first-of-type,
+.upper-bar .upper-contact span{
+    color: #888;
+    margin-right: 15px
+}
+
+.upper-bar .upper-contact .btn{
+    color: #FFF;
+    border: 1px solid #EC1C23;
+    border-radius: 0
+}
+
+@media (max-width: 768px) { 
+    .upper-bar {text-align: center}
+    
+    .upper-bar .upper-contact{ 
+        text-align: center;
+        margin-top: 10px
+    }
+}
+
+@media (max-width: 576px) { 
+    .upper-bar .upper-contact{ 
+        text-align: center;
+        margin-top: 0px
+    }
+    
+    .upper-bar .upper-contact span{
+        color: #888;
+        margin-right: 3px
+    }
+    
+    .upper-bar .upper-contact .btn{
+        border: none
+    }
+}
+/* end start upper bar*/
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start nav bar*/
+
+.navbar-brand{
+    color: #08526D !important;
+    font-size: 40px;
+    font-weight: bold
+}
+
+.navbar-brand span { 
+    color: #EC1C23;
+    font-weight: normal
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #888;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{ color: #08526D }
+
+.navbar-light .navbar-nav .active>.nav-link { color: #EC1C23 }
+
+/* end nav bar*/
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start Carousel*/
+
+
+.slide-one .carousel-inner{ height: 100% }
+
+.slide-one .carousel-item{
+    height: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.slide-one .carousel-item:first-of-type{ background-image: url("img/slider01.jpg")}
+.slide-one .carousel-item:nth-of-type(2){ background-image: url("img/slider02.jpg") }
+.slide-one .carousel-item:last-of-type{ background-image: url("img/slider03.jpg") }
+
+.slide-one .carousel-contant {
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    color: red;
+    overflow: hidden;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.slide-one .carousel-contant h1{
+}
+
+.slide-one .carousel-contant h1 span {
+    color: #EC1C23;
+}
+
+.slide-one .carousel-indicators { 
+    z-index: 9999;
+}
+
+.slide-one .carousel-indicators li { height: 7px}
+
+@media (max-width: 768px) { 
+     .slide-one .carousel-contant h1{
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.8;
+        font-weight: bold;
+        color: #FFF;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1199px) { 
+     .slide-one .carousel-contant h1{
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        color: #FFF;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .slide-one .carousel-contant h1{
+
+        font-size: 55px;
+        line-height: 1.8;
+        font-weight: bold;
+        color: #FFF;
+    }
+}
+/* end Carousel*/
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start features*/
+
+.features { padding-bottom: 20px }
+
+.features .icon-round{
+    height: 65px;
+    width: 65px;
+    margin: 0 auto 10px;
+    background-color: #EC1C23;
+    color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.features h4{
+    color: #08526D
+}
+
+.features p{
+    color: #888;
+    margin-bottom: 50px
+}
+
+
+
+/* end features*/
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start company overview*/
+
+.company-overview { background-color: #F0F5F7 }
+
+.company-overview .h1{
+    font-weight: bold;
+    margin-bottom: 30px
+}
+
+.company-overview p{
+    font-size: 22px;
+    line-height: 1.9;
+    color: #888
+}
+
+.company-overview span{
+    display: block;
+    margin-bottom: 30px;
+    color: #888;
+    font-size: 26px
+}
+
+.company-overview .btn { 
+    border-radius: 0;
+    padding: 10px 25px;
+    font-size: 25;
+    font-weight: bold
+}
+
+
+/* end company overview*/
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start work */
+
+
+.work .h1{
+    font-weight: bold;
+    margin-bottom: 30px
+}
+
+.work p{
+    font-size: 22px;
+    line-height: 1.6;
+    color: #888;
+    margin-bottom: 40px
+}
+
+.work ul{
+    margin-bottom: 60px
+}
+
+.work li{
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s linear
+
+}
+
+.work li:hover{
+    background-color: #EC1C23;
+    border: 2px solid #EC1C23;
+    color: #FFF
+}
+
+.active-work{
+    background-color: #EC1C23;
+    border: 2px solid #EC1C23 !important;
+    color: #FFF  
+}
+
+.work-img{
+    opacity: 0.2;
+    transition: all 0.2s linear
+}
+.work .no-padding{
+    padding: 0
+}
+
+@media (max-width: 768px) { 
+    .work li{
+        margin-right: 5px;
+        margin-left: 5px
+    }
+}
+
+
+@media (max-width: 768px) { 
+    .work .img-fluid{
+        width: 100%
+    }
+}
+/* end work */
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start Latest Posts */
+
+.latest-posts{ padding-bottom: 40px }
+
+.latest-posts .h1{
+    font-weight: bold;
+    margin-bottom: 30px
+}
+
+.latest-posts p{
+    font-size: 22px;
+    line-height: 1.6;
+    color: #888;
+    margin-bottom: 40px
+}
+
+.latest-posts-container .latest-posts-container-img .img-fluid{
+    width: 100%
+}
+
+.latest-posts .latest-posts-container{
+    border: 2px solid #EEE;
+    text-align: left;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px
+}
+
+.latest-posts .latest-posts-container .latest-posts-container-contant{ padding: 20px }
+
+.latest-posts .latest-posts-container .latest-posts-container-contant h5 {
+    color: #08526D;
+    margin-bottom: 10px
+}
+
+.latest-posts .latest-posts-container .latest-posts-container-contant span{
+    color: #888
+}
+
+.latest-posts .latest-posts-container .latest-posts-container-contant p{
+    color: #888;
+    font-size: 16px;
+    margin: 7px 0
+}
+
+.latest-posts .latest-posts-container .latest-posts-container-contant button{
+    color: #EC1C23;
+    border: none;
+    font-weight: bold;
+    background-color: #FFF
+}
+
+/* end Latest Posts */
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* testimonials */
+
+.testimonials{ 
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("img/testimonial.jpg") no-repeat center scroll;
+    background-size: cover;
+    height: 400px
+}
+
+.testimonials .container,
+.testimonials .carousel,
+.testimonials .carousel-inner{
+    height: 100%
+}
+
+
+
+.testimonials .carousel-inner{
+    display: flex;
+    align-items: center
+}
+
+.testimonials .carousel-caption{
+    position: static
+}
+
+.testimonials .carousel-caption img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px
+}
+
+.testimonials .carousel-caption h5 {
+    margin-bottom: 15px
+}
+
+.testimonials .carousel-indicators li { height: 7px}
+
+
+
+/* end testimonials */
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start price */
+
+.price{
+    background-color: #F0F5F7
+}
+
+.price .h1{
+    font-weight: bold;
+    margin-bottom: 30px
+}
+
+.price .container > p{
+    font-size: 22px;
+    line-height: 1.6;
+    color: #888;
+    margin-bottom: 40px
+}
+
+.price .price-box{
+    margin-top: 65px;
+    padding: 30px 0 25px;
+    border: 2px solid #DDD;
+    background-color: #FFF;
+    border-radius: 5px
+}
+
+.price .price-box-two{
+    margin-top: 38px;
+}
+
+.price .price-box h3{
+    color: #08526D
+}
+
+.price .price-box h3 + span{
+    color: #888
+}
+
+.price .price-box p{
+    background-color: #F0F5F7;
+    margin: 25px 0;
+    padding: 15px 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #08526D
+}
+
+.price .price-box-two p{
+     background-color: #EC1C23;
+    color: #FFF
+}
+
+.price .price-box p span {
+    font-size: 16px
+}
+
+.price .price-box ul li {
+    margin-bottom: 15px
+}
+
+.price .price-box .btn{
+    background-color: #EC1C23;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 0;
+    margin-top: 10px
+}
+
+.price .price-box-two .btn{
+    background-color: #08526D
+}
+
+/* end price */
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start choose us */
+
+.choose-us{
+  overflow: hidden
+}
+
+.choose-us .row .choose-back{
+    background-color: #08526D;
+    color: #FFF;
+    padding: 60px 30px 30px
+}
+
+.choose-us .h1{
+    margin-bottom: 30px
+}
+
+.choose-us .lead{
+    line-height: 2;
+    margin-bottom: 40px
+}
+
+.choose-us .btn{
+    background-color: #EC1C23;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 0;
+    margin-top: 10px
+}
+
+
+/* end choose us */
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start statistics */
+
+.statistics i,
+.statistics p{
+    color: #08526D;
+}
+
+.statistics p{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #08526D
+}
+
+.statistics span{
+    color: #EC1C23;
+    margin-bottom: 20px;
+    font-size: 20px
+}
+
+@media (max-width: 768px) { 
+    .statistics span{
+        margin-bottom: 35px
+    }
+}
+
+
+
+/* end statistics */
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start contact */
+
+.contact{
+    background-color: #EC1C23;
+    color: #FFF;
+    padding: 70px 0
+}
+
+.contact p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.contact .btn{
+    margin: 0;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 0;
+    margin-top: 10px;
+    margin: 0
+}
+
+@media (max-width:567px) {
+    .contact{
+        padding: 10px 0
+    }
+    
+    .contact .btn{
+        border: none
+    }
+}
+/* end contact */
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start up-footer */
+
+.up-footer{
+    border-bottom: 1px solid #ddd
+}
+
+.up-footer h2{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #08526D 
+}
+
+.up-footer h2 span{
+   color: #EC1C23;
+    font-weight: normal
+}
+
+.up-footer h2 + p{
+    color: #888
+}
+
+.up-footer .up-icon{
+    height: 15px;
+    width: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 6px;
+    background-color: #08526D;
+    color: #FFF;
+    display: inline-block
+}
+
+.up-footer .up-icon + a{
+    color: #08526D;
+    font-weight: bold;
+    transform: translateY(50%)
+}
+
+.up-footer h3{
+    color: #08526D;
+    margin-bottom: 80px
+}
+
+.up-footer ul li i{
+    color: #08526D
+}
+
+.up-footer h3 ~ p{
+    margin-bottom: 25px
+}
+
+@media (max-width:992px) {
+    .up-footer h3{
+        margin-top: 50px;
+        margin-bottom: 20px
+    }
+    
+    .up-footer h3 ~ p{
+        margin-bottom: 7px
+    }
+}
+/* end up-footer */
+/*******************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+/* start footer */
+
+footer{
+    padding: 20px
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+    font-size: 17px
+}
+
+footer ul{
+    margin: 0;
+    padding: 0
+}
+
+footer ul li{
+    display: inline-block;
+    margin-right: 10px;
+    color: #888;
+    cursor: pointer;
+}
+
+/* end footer */
+/*******************************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
